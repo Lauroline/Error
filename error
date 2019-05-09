@@ -1,0 +1,192 @@
+PS C:\Users\lkeat\OneDrive\Desktop\discordjs\bot> npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help json` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (bot)
+version: (1.0.0)
+description: Headmaster
+entry point: (index.js)
+test command:
+git repository:
+keywords:
+author: Lauren
+license: (ISC)
+About to write to C:\Users\lkeat\OneDrive\Desktop\discordjs\bot\package.json:
+
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "Headmaster",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lauren",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes)
+PS C:\Users\lkeat\OneDrive\Desktop\discordjs\bot> npm install discord.js --save
+npm WARN deprecated snekfetch@3.6.4: use node-fetch instead
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN discord.js@11.4.2 requires a peer of bufferutil@^3.0.3 but none is installed. You must install peer dependencies yourself.
+npm WARN discord.js@11.4.2 requires a peer of erlpack@discordapp/erlpack but none is installed. You must install peer dependencies yourself.
+npm WARN discord.js@11.4.2 requires a peer of node-opus@^0.2.7 but none is installed. You must install peer dependencies yourself.
+npm WARN discord.js@11.4.2 requires a peer of opusscript@^0.0.6 but none is installed. You must install peer dependencies yourself.
+npm WARN discord.js@11.4.2 requires a peer of sodium@^2.0.3 but none is installed. You must install peer dependencies yourself.
+npm WARN discord.js@11.4.2 requires a peer of libsodium-wrappers@^0.7.3 but none is installed. You must install peer dependencies yourself.
+npm WARN discord.js@11.4.2 requires a peer of uws@^9.14.0 but none is installed. You must install peer dependencies yourself.
+npm WARN bot@1.0.0 No repository field.
+
++ discord.js@11.4.2
+added 8 packages from 7 contributors and audited 8 packages in 2.67s
+found 0 vulnerabilities
+
+PS C:\Users\lkeat\OneDrive\Desktop\discordjs\bot> node index.js
+internal/modules/cjs/loader.js:584
+    throw err;
+    ^
+
+Error: Cannot find module 'C:\Users\lkeat\OneDrive\Desktop\discordjs\bot\index.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:582:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:508:25)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:754:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+PS C:\Users\lkeat\OneDrive\Desktop\discordjs\bot>
+PS C:\Users\lkeat\OneDrive\Desktop\discordjs\bot> node index.js
+internal/modules/cjs/loader.js:584
+    throw err;
+    ^
+
+Error: Cannot find module 'C:\Users\lkeat\OneDrive\Desktop\discordjs\bot\index.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:582:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:508:25)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:754:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+PS C:\Users\lkeat\OneDrive\Desktop\discordjs\bot> node index.js
+internal/modules/cjs/loader.js:584
+    throw err;
+    ^
+
+Error: Cannot find module 'C:\Users\lkeat\OneDrive\Desktop\discordjs\bot\index.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:582:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:508:25)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:754:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+PS C:\Users\lkeat\OneDrive\Desktop\discordjs\bot>
+
+
+
+
+
+
+PS C:\Users\lkeat\OneDrive\Desktop\discordjs\bot> node index.js
+internal/modules/cjs/loader.js:584
+    throw err;
+    ^
+
+Error: Cannot find module 'C:\Users\lkeat\OneDrive\Desktop\discordjs\bot\index.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:582:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:508:25)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:754:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+PS C:\Users\lkeat\OneDrive\Desktop\discordjs\bot> node index.js
+internal/modules/cjs/loader.js:584
+    throw err;
+    ^
+
+Error: Cannot find module 'C:\Users\lkeat\OneDrive\Desktop\discordjs\bot\index.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:582:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:508:25)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:754:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+PS C:\Users\lkeat\OneDrive\Desktop\discordjs\bot> node index.js
+internal/modules/cjs/loader.js:584
+    throw err;
+    ^
+
+Error: Cannot find module 'C:\Users\lkeat\OneDrive\Desktop\discordjs\bot\index.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:582:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:508:25)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:754:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+PS C:\Users\lkeat\OneDrive\Desktop\discordjs\bot> node index.js
+internal/modules/cjs/loader.js:584
+    throw err;
+    ^
+
+Error: Cannot find module 'C:\Users\lkeat\OneDrive\Desktop\discordjs\bot\index.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:582:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:508:25)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:754:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+PS C:\Users\lkeat\OneDrive\Desktop\discordjs\bot> node index.js
+internal/modules/cjs/loader.js:584
+    throw err;
+    ^
+
+Error: Cannot find module 'C:\Users\lkeat\OneDrive\Desktop\discordjs\bot\index.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:582:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:508:25)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:754:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+PS C:\Users\lkeat\OneDrive\Desktop\discordjs\bot> node index.js
+internal/modules/cjs/loader.js:584
+    throw err;
+    ^
+
+Error: Cannot find module 'C:\Users\lkeat\OneDrive\Desktop\discordjs\bot\index.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:582:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:508:25)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:754:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+PS C:\Users\lkeat\OneDrive\Desktop\discordjs\bot> node index.js
+internal/modules/cjs/loader.js:584
+    throw err;
+    ^
+
+Error: Cannot find module 'C:\Users\lkeat\OneDrive\Desktop\discordjs\bot\index.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:582:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:508:25)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:754:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+PS C:\Users\lkeat\OneDrive\Desktop\discordjs\bot> node index.js
+internal/modules/cjs/loader.js:584
+    throw err;
+    ^
+
+Error: Cannot find module 'C:\Users\lkeat\OneDrive\Desktop\discordjs\bot\index.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:582:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:508:25)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:754:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+PS C:\Users\lkeat\OneDrive\Desktop\discordjs\bot>
+
+
+
+
+
+
+
+
+
+
